@@ -1,0 +1,32 @@
+
+<section class="touch" ng-cloak>
+	<header class="page-header">
+		<h1>Windows on Earth</h1>
+		<img src="images/header.jpg" alt="Windows on Earth" />
+	</header>
+
+	<aside class="left-nav">
+		<h2>Select:</h2>
+		<ul ng-repeat="section in menuItems" ng-cloak>
+			<li ng-repeat="item in section"
+				ng-class="{active: item.active}">
+				<a ng-href="#{{getBaseUrl()}}{{item.routeKey}}"
+				   ng-click="menuItemPressed(item.routeKey)">
+				   <span ng-class="{'flip' : isChildMenu(item.routeKey)}" class="icon-wrap">
+					   <span class="{{item.icon}} icon front"></span>
+					   <span class="icon-arrow icon back"></span>
+				   </span>{{item.title}}</a>
+			</li>
+		</ul>
+	</aside>
+
+	<section class="main-body">
+		<section class="appView" ng-view ng-cloak></section>
+		<section class="map touch-orbital" ng-show="showMap">
+			<orbital-map position="orbitalPosition" show-orbital-gauges="showOrbitalGauges" show-day-night-toggle="showDayNightToggle" ng-cloak>
+				<cesium-widget id="orbitalMap" no-default-imagery="true" scene-3d-Only="false" ng-cloak></cesium-widget>
+			</orbital-map>
+		</section>
+	</section>
+
+</section>

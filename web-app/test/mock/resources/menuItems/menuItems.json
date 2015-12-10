@@ -1,0 +1,24 @@
+[{
+	"title": "primary",
+	"items": [{
+			"routeKey": "flyover",
+			"title": "I.S.S. Flyover",
+			"icon": "navFlyoverIcon.png"
+		},{
+			"routeKey": "photography",
+			"title" : "Photography",
+			"icon"  : "navPhotographyIcon.png"
+		}]
+}, {
+	"title": "secondary",
+	"items": [{
+			"routeKey": "about",
+			"title": "About WoE",
+			"icon": "navAboutWoE.png"
+		}
+	]
+}, {
+	"title": "footer",
+	"items": []
+	}
+]

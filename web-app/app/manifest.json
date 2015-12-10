@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_appName__",
+    "short_name": "WinEarthExhibit",
+    "description": "",
+    "default_locale": "en",
+    "author": [
+        "Michael Lodge-Paolini",
+        "Kristy Yeaton",
+        "Gilbert Loung"
+    ],
+    "version": "1.2.20",
+    "minimum_chrome_version": "38",
+    "permissions": [
+        "app.window",
+        "alwaysOnTopWindows",
+        "fullscreen",
+        "idle",
+        "power",
+        "system.cpu",
+        "system.display",
+        "system.memory",
+        "unlimitedStorage",
+        "webview",
+        "http://mof.exhibits.winonearth.com/*"
+    ],
+    "icons": {
+        "16": "images/icon_16.png",
+        "128": "images/icon_128.png"
+    },
+    "app": {
+        "background": {
+            "scripts": [
+                "scripts/chromeInit.js",
+                "scripts/chromereload.js"
+            ]
+        }
+    }
+}

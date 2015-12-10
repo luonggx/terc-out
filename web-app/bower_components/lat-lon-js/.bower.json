@@ -1,0 +1,26 @@
+{
+  "name": "cesiumjs",
+  "version": "1.0.1",
+  "license": "Apache 2.0",
+  "dependencies": {},
+  "devDependencies": {},
+  "main": "latlon.js",
+  "ignore": [
+    "node_modules",
+    ".editorconfig",
+    ".gitignore",
+    ".jshintrc",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/nautsoft/latlonjs",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.1",
+    "commit": "c16f54f0ec9841f84bedfa5b4aa4d5f2b6f1587d"
+  },
+  "_source": "git://github.com/nautsoft/latlonjs.git",
+  "_target": "*",
+  "_originalSource": "nautsoft/latlonjs"
+}

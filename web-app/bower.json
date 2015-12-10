@@ -1,0 +1,24 @@
+{
+	"name": "museumOfFlightApp",
+	"version": "1.2.0",
+	"dependencies": {
+		"angular": "^1.3.0",
+		"bootstrap-sass-official": "^3.2.0",
+		"angular-animate": "^1.3.0",
+		"angular-resource": "^1.3.0",
+		"angular-route": "^1.3.0",
+		"angular-md5": "~0.1.7",
+		"angular-bootstrap": "~0.11.1",
+		"angular-cesiumjs": "nautsoft/angular-cesiumjs#develop",
+		"lat-lon-js": "nautsoft/latlonjs"
+	},
+	"devDependencies": {
+		"angular-mocks": "^1.3.0"
+	},
+	"appPath": "app",
+	"moduleName": "museumOfFlightApp",
+	"resolutions": {
+		"angular": "^1.3.0",
+		"angular-resource": "^1.3.0"
+	}
+}

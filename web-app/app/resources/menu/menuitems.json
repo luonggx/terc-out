@@ -1,0 +1,24 @@
+[{
+	"title": "primary",
+	"displayTitle" : false,
+
+	"items": [{
+		"routeKey": "photography",
+		"isDefault": true,
+		"title" : "Photography",
+		"icon"  : "icon-camera"
+	},{
+		"routeKey": "flyover",
+		"isDefault": false,
+		"title": "I.S.S. Flyover",
+		"icon": "icon-tracker"
+	}]
+}, {
+	"title": "secondary",
+	"displayTitle" : false,
+	"items": [
+	]
+}, {
+	"title": "footer",
+	"items": []
+}]

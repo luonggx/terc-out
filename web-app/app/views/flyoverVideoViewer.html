@@ -1,0 +1,14 @@
+<div ng-if="currentItem.media.type != 'cesium'" class="video-viewer">
+	<div class="video-loading" viewer-loading-mask></div>
+	<div class="flyover-text-overlay" ng-show="isAnimation">
+		<p>Animation</p>
+	</div>
+	<video ng-src="{{isDay || !currentItem.media.srcNight ? currentItem.media.srcDay : currentItem.media.srcNight}}"
+	       height="{{currentItem.media.height}}"
+	       width="{{currentItem.media.width}}"
+	       type="video/{{currentItem.media.type}}"
+	       autoplay>
+
+		Your browser does not support the video tag.
+	</video>
+</div>

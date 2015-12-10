@@ -1,0 +1,27 @@
+<section class="square-gallery" ng-cloak="itemList.length" >
+	<div class="image-wrap">
+		<div ng-repeat="item in itemList | offset: (currentPage-1)*itemsPerPage | limitTo: itemsPerPage"
+			 class="gal-item"
+			 ng-class="{active: isActive(item.id)}">
+			<a ng-href ng-click="chooseItem(item.id)"><img alt="{{item.title}}"
+														   ng-cloak
+														   ng-src="{{item.cover}}"/></a>
+			<p>{{item.title}}</p>
+		</div>
+	</div>
+</section>
+
+<img class="gallery-map" ng-if="currentItem.id !== 'issNow'" ng-cloak ng-src="{{currentItem.mapImg}}" />
+
+<div class="day-night-toggle" ng-if="showDayNightToggle">
+	<h2>Select:</h2>
+	<a class="day"
+	   ng-href=""
+	   ng-click="toggleDayNight(true)"
+	   ng-class="{active: dayActive}"><span class="icon-sun"></span>Day</a>
+	<a class="night"
+	   ng-href=""
+	   ng-click="toggleDayNight(false)"
+	   ng-class="{active: !dayActive}"><span class="icon-moon"></span>Night</a>
+</div>
+</section>

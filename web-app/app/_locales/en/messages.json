@@ -1,0 +1,10 @@
+{
+    "appName": {
+        "message": "Museum of Flight Presents: Windows on Earth",
+        "description": "The name of the application"
+    },
+    "appDescription": {
+        "message": "Windows on Earth's 2nd Museum Exhibit featuring a breathtaking Photo Gallery by the astronauts aboard the International Space Station and simulated views from the ISS Cupola.",
+        "description": "The description of the application"
+    }
+}

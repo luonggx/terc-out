@@ -1,0 +1,8 @@
+<div class="gallery-landing" ng-cloak="itemList.length">
+	<div ng-cloak ng-repeat="item in itemList" class="gal-item">
+		<a ng-href="#{{item.link}}">
+			<img ng-cloak ng-src="{{item.cover}} "/>
+			<span class="title">{{item.title}}</span>
+		</a>
+	</div>
+</div>

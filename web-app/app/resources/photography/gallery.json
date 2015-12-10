@@ -1,0 +1,25 @@
+{
+	"title": "Photography",
+	"defaultAlbum": "NorthAmerica",
+	"cacheDuration": 64800,
+	"viewerImage": "Seattle_PhotoCover_iss036e006166.jpg",
+	"albums": [{
+		"path": "NorthAmerica",
+		"enabled": true
+	}, {
+		"path": "SouthAmerica",
+		"enabled": true
+	}, {
+		"path": "Europe",
+		"enabled": true
+	}, {
+		"path": "Africa",
+		"enabled": true
+	}, {
+		"path": "Asia",
+		"enabled": true
+	}, {
+	   "path": "AustraliaPacific",
+	   "enabled": true
+	}]
+}

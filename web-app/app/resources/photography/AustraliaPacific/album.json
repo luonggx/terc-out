@@ -1,0 +1,105 @@
+{
+	"id": "AustraliaPacific",
+	"title": "Australia / Pacific",
+	"cover": "AustraliaPacific_cover_493x306.jpg",
+	"images": [{
+		"active": true,
+		"id": "NewZealand",
+		"title": "New Zealand",
+		"thumbnail": "iss040e091130_178x178.jpg",
+		"filename": "iss040e091130_3240x1920.jpg",
+		"fileType": "jpg",
+		"timestamp": "2014-08-10T00:38:33+0000",
+		"latitude": -45.4711,
+		"longitude": 171.5183,
+		"altitude": 266
+	},{
+		"active": true,
+		"id": "PrinceRegentPark",
+		"title": "Prince Regent Park, Australia",
+		"thumbnail": "iss040e089751_178x178.jpg",
+		"filename": "iss040e089751_3240x1920.jpg",
+		"fileType": "jpg",
+		"timestamp": "2014-08-08T07:04:29+0000",
+		"latitude": -31.7582,
+		"longitude": 115.7460,
+		"altitude": 257
+	},{
+		"active": true,
+		"id": "LakeFrome",
+		"title": "Lake Frome, South Australia",
+		"thumbnail": "iss040e105608_178x178.jpg",
+		"filename": "iss040e105608_3240x1920.jpg",
+		"fileType": "jpg",
+		"timestamp": "2014-08-23T22:54:21+0000",
+		"latitude": -30.6974,
+		"longitude": 139.7737,
+		"altitude": 265
+	},{
+		"active": true,
+		"id": "CentralAustralia",
+		"title": "Central Australia",
+		"thumbnail": "iss040e105828_178x178.jpg",
+		"filename": "iss040e105828_3240x1920.jpg",
+		"fileType": "jpg",
+		"timestamp": "2014-08-23T22:56:02+0000",
+		"latitude": -27.8361,
+		"longitude": 142.96,
+		"altitude": 264
+	},{
+		"active": true,
+		"id": "GulfofCarpentaria",
+		"title": "Gulf of Carpentaria, Australia",
+		"thumbnail": "iss039e010257_178x178.jpg",
+		"filename": "iss039e010257_3240x1920.jpg",
+		"fileType": "jpg",
+		"timestamp": "2014-04-08T06:35:39+0000",
+		"latitude": -14.6206,
+		"longitude": 138.8367,
+		"altitude": 259
+	},{
+		"active": true,
+		"id": "TimorSea",
+		"title": "Timor Sea, Australia",
+		"thumbnail": "iss040e089757_178x178.jpg",
+		"filename": "iss040e089757_3240x1920.jpg",
+		"fileType": "jpg",
+		"timestamp": "2014-08-08T07:05:02+0000",
+		"latitude": -12.4902,
+		"longitude": 127.2624,
+		"altitude": 257
+	},{
+		"active": true,
+		"id": "FitzroyRiver",
+		"title": "Fitzroy River, Australia",
+		"thumbnail": "iss040e089739_178x178.jpg",
+		"filename": "iss040e089739_3240x1920.jpg",
+		"fileType": "jpg",
+		"timestamp": "2014-08-08T07:03:38+0000",
+		"latitude": -18.0494,
+		"longitude": 123.8136,
+		"altitude": 258
+	},{
+		"active": true,
+		"id": "GalapagosIslands",
+		"title": "Galapagos Islands",
+		"thumbnail": "iss041e106104_178x178.jpg",
+		"filename": "iss041e106104_3240x1920.jpg",
+		"fileType": "jpg",
+		"timestamp": "2014-10-31T12:56:04+0000",
+		"latitude": -1.6503,
+		"longitude": -91.3928,
+		"altitude": 257
+	}, {
+		"active": true,
+		"id": "HawaiianIslands",
+		"title": "Hawaiian Islands",
+		"thumbnail": "iss041e017076_178x178.jpg",
+		"filename": "iss041e017076_3240x1920.jpg",
+		"fileType": "jpg",
+		"timestamp": "2014-09-19T20:53:10+0000",
+		"latitude": 20.0296581,
+		"longitude": -157.2578076,
+		"altitude": 257
+	}]
+}

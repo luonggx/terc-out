@@ -1,0 +1,14 @@
+<section class="viewer">
+	<section class="main-body">
+		<section class="appView" ng-view ng-cloak></section>
+		<section class="map full" ng-if="showMap" ng-cloak>
+			<div class="cesium-viewer">
+				<div class="cesium-loading" viewer-loading-mask></div>
+
+				<div class="cesium-mask"><img class="cesium-mask-img" src="images/iss_cupola_mask.png" alt="" /></div>
+				<cesium-widget id="cesiumMap" no-default-imagery="true" scene-3d-Only="true" ng-cloak></cesium-widget>
+			</div>
+		</section>
+
+	</section>
+</section>

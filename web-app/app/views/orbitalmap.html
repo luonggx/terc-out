@@ -1,0 +1,41 @@
+<div ng-cloak class="orbital-map">
+	<div ng-show="showOrbitalGauges" class="gauge velocity-altitude">
+		<div class="velocity-display">
+			<div class="marker"
+				 ng-style="{top: getMarkerPosition('velocity')}">{{position.velocity | number:0}}</div>
+			<div class="chart">
+				<div class="header">MPH</div>
+				<div class="chart-nums chart-body">
+					<div ng-repeat="tickMark in velocityGauge.segments" class="num tick">- {{tickMark}}</div>
+				</div>
+				<div class="footer">VEL</div>
+			</div>
+		</div>
+		<div class="altitude-display">
+			<div class="marker"
+				 ng-style="{top: getMarkerPosition('altitude')}">{{position.altitude | number:0}}</div>
+			<div class="chart">
+				<div class="header">MILES</div>
+				<div class="chart-nums chart-body">
+					<div ng-repeat="tickMark in altitudeGauge.segments" class="num tick">- {{tickMark}}</div>
+				</div>
+				<div class="footer">ALT</div>
+			</div>
+		</div>
+	</div>
+	<div ng-show="showOrbitalGauges" class="gauge longitude-display">
+		<div class="numbers chart-body">
+			<div ng-repeat="tickMark in longitudeGauge.segments" class="number tick">{{tickMark}}</div>
+		</div>
+		<div class="marker"
+			 ng-style="{left: getMarkerPosition('longitude')}">{{position.longitude | number:1}}</div>
+	</div>
+	<div ng-show="showOrbitalGauges" class="gauge latitude-display">
+		<div class="marker"
+			 ng-style="{top: getMarkerPosition('latitude')}">{{position.latitude | number:1}}</div>
+		<div class="numbers chart-body">
+			<div ng-repeat="tickMark in latitudeGauge.segments" class="number tick"><span>{{tickMark}}</span></div>
+		</div>
+	</div>
+	<div ng-class="{withGauges:showOrbitalGauges}" class="backgroundmap" ng-transclude></div>
+</div>
